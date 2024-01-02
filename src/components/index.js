@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 /*
  **全局注册组件
  ** 放在components/global文件夹下

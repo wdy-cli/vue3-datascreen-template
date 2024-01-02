@@ -1,17 +1,12 @@
 <template>
-  <v-scale-screen>
-    <router-view></router-view>
-  </v-scale-screen>
+  <router-view></router-view>
 </template>
+
 <script setup>
-import { onMounted, provide } from 'vue'
-
-import VScaleScreen from 'v-scale-screen'
-import * as echarts from 'echarts'
-provide('echart', echarts)
-
-onMounted(() => {
-  console.log()
-})
+console.log(
+  '%cautofit.js is running',
+  'font-weight: bold; color: #ffb712; background:linear-gradient(-45deg, #bd34fe 50%, #47caff 50% );background: -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff );background-clip: text;-webkit-background-clip: text; -webkit-text-fill-color:linear-gradient( -45deg, #bd34fe 50%, #47caff 50% ); padding: 8px 12px; border-radius: 4px;'
+)
 </script>
-<style scoped></style>
+
+<style lang="scss" scoped></style>
